@@ -1,13 +1,13 @@
 let heroi = "Homem-Aranha"
 let xpHeroi = 7500
-let nivel = " "
+let nivel = ""
 if (xpHeroi <= 1000)
     nivel = "Ferro"
 else if ((xpHeroi >= 1001) && (xpHeroi<= 2000))
     nivel = "Bronze"
 else if ((xpHeroi >= 2001) && (xpHeroi <= 5000))
     nivel = "Prata"
-else if ((xpHeroi >= 6001) && (xpHeroi <= 7000))
+else if ((xpHeroi >= 5001) && (xpHeroi <= 7000))
     nivel = "Ouro"
 else if ((xpHeroi >= 7001) && (xpHeroi <= 8000))
     nivel = "Platina"
